@@ -12,4 +12,5 @@
   --color-gray-2: #525a76;
   --font-mullish: "Mulish", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --shadow-card-sha:2px 2px 5px 3px rgba(0, 0, 0, 0.2);
 }

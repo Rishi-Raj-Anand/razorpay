@@ -1,0 +1,7 @@
+.card:hover .img-design {
+    background: linear-gradient(45deg, #8cbbf1 30%,#2b84ea 70%);
+}
+
+/* .card:hover svg {
+    box-shadow: 2px 2px 2px 10px black;
+} */
