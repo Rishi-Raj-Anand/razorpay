@@ -1,7 +1,16 @@
-.card:hover .img-design {
-    background: linear-gradient(45deg, #8cbbf1 30%,#2b84ea 70%);
+.card:hover #card-svg{
+    filter: drop-shadow(3px -3px 5px rgba(19, 19, 19, 0.356));
 }
 
-/* .card:hover svg {
-    box-shadow: 2px 2px 2px 10px black;
-} */
+.card:hover .wavy{
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+.feature-grp:hover .h-to-gray{
+    color: #344a6c;
+}
+
+.card:hover .img-design{
+    background: linear-gradient(45deg,#bcd5f2,#2b84ea);
+}
