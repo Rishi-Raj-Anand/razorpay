@@ -1,10 +1,10 @@
 .card:hover #card-svg{
-    filter: drop-shadow(3px -3px 5px rgba(19, 19, 19, 0.356));
+    filter: drop-shadow(3px -3px 10px rgba(190, 189, 189, 0.822));
 }
 
 .card:hover .wavy{
     opacity: 1;
-    transition-duration: 300ms;
+    transition-duration: 1s;
 }
 
 .feature-grp:hover .h-to-gray{
@@ -13,4 +13,6 @@
 
 .card:hover .img-design{
     background: linear-gradient(45deg,#bcd5f2,#2b84ea);
+    transition-duration: 20s;
+    transition-timing-function: linear;
 }

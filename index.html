@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="style2.css">
     <script src="https://unpkg.com/feather-icons"></script>
@@ -11,9 +14,9 @@
 </head>
 <body>
 
-    <div class="w-full h-full overflow-x-hidden" id="wrapper">
+    <div class="w-full h-full overflow-x-hidden relative z-200" id="wrapper">
         <!-- Navbar -->
-        <nav class="bg-deep-blue ">
+        <nav class="bg-deep-blue z-100">
             <div class=" flex relative justify-between items-center mx-auto w-[1080px] ">
                 <!-- main logo -->
             <a href="/" class="py-7 pr-7 cursor-pointer">
@@ -109,7 +112,7 @@
         </section>
 
         <!-- feature section -->
-        <section class="relative mt-[190px] overflow-hidden flex flex-col items-center space-y-10">
+        <section class="relative mt-[190px] overflow-hidden flex flex-col items-center space-y-10 z-100 mb-4 pb-15">
             <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="186px" height="133.6px"
             class="absolute -top-[6.4rem] left-[8rem] inline-block">
             <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="186px" height="133.6px"
@@ -184,7 +187,7 @@
                 <div class="w-full min-h-[15rem] relative cursor-pointer card group">
                     <img src="./images/payment-link-icon.svg" alt=""
                     class="bg-light-blue absolute top-3 right-3 h-12 w-12 rounded-full z-[8]
-                    transition-all duration-200 img-design">
+                     img-design">
                     <!--box shape-->
                     <svg 
                         viewBox="0 0 349.32501220703125 225"
@@ -492,9 +495,71 @@
         
         </section>
 
-        <!-- festure section 2 -->
-        <section>
-            
+        <!-- feature section 2 -->
+        <section class=" relative bg-[url(/images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[16rem] pb-[500px] mt-10 z-50">
+
+
+            <div class="relative w-10/12 max-w-[1080px] mx-auto pt-4 z-40" >
+                <!-- heading part  -->
+                <h2 class="font-mullish text-2xl font-extrabold leading-[1.2] text-center text-white"> Explore Razorpay Business Banking</h2>
+                <div class="w-6 h-1 bg-green-700 mx-auto mt-4 mb-6"></div>
+
+                <div class="w-full min-h-[440px] relative z-30">
+
+                    <img src="./images/x-flame-1.png" alt="" class="absolute -top-[142px] -left-[140px] w-[200px] z-20 ">
+                    <img src="./images/x-flame-2.png" alt="" class="absolute top-[150px] -right-[180px] w-[270px]">
+
+                    <!-- main card -->
+                    <div class="w-full min-h-[520px] rounded-md bg-deep-blue relative p-10 py-12  flex border border-[#F2F2F2] z-30 items-center">
+                        <!-- left part -->
+                        <div class="flex flex-col  w-full bg-deep-blue ">  
+                            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px] text-white">
+                                Manage your company's finances with 
+                                <img src="./images/razorpayX.svg" alt="" width="168px" height="32px" class="inline">
+                                <span class="text-green-500">Business Banking</span>
+                            </h3>
+                            <ul class="space-y-2 mt-15">
+                                <li class="font-mullish flex items-center space-x-2 text-white">
+                                    <i data-feather="check" class="text-green-500"></i>
+                                    <span>Open a fully digital current account</span>
+                                </li>
+
+                                <li class="font-mullish flex items-center space-x-2 text-white">
+                                    <i data-feather="check" class="text-green-500"></i>
+                                    <span>Automate payables & compliment payments</span>
+                                </li>
+                                <li class="font-mullish flex items-center space-x-2 text-white">
+                                    <i data-feather="check" class="text-green-500"></i>
+                                    <span>Simplify and track spends with Corporate cards</span>
+                                </li >
+                                <li class="font-mullish flex items-center space-x-2 text-white">
+                                    <i data-feather="check" class="text-green-500"></i>
+                                    <span>View financial insights at a glance</span>
+                                </li>
+                            </ul>
+
+                            <div class="flex flex-row items-center space-x-4 mt-15">
+                                <button class="flex relative items-center flex-row  bg-light-blue w-fit font-mullish text-white rounded-md font-bold
+                                hover:bg-light-blue-500 transition-all duration-200 justify-start py-[14px] px-[50px] ">
+                                    <div class="text-left">Sign Up</div>  
+                                    <div class="w-12 h-[60px] bg-green-light absolute right-4"></div>
+                                </button>
+
+                                <div class="flex items-center cursor-pointer group">
+                                    <a href="#" class="font-mullish font-bold text-light-blue group-hover:text-gray-blue 
+                                    transition-all duration-200">Know More</a>
+                                    <i data-feather="chevron-right" class="w-5 h-5  text-light-blue group-hover:text-gray-blue
+                                    transition-all duration-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right part -->
+                        <img src="./images/buisness-banking.png" alt=""
+                        class="absolute  max-w-[600px] right-0 bottom-0 ">
+                    </div>
+                </div>
+
+            </div>
         </section>
         
     </div>
