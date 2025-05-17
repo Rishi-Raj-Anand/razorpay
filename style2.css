@@ -12,7 +12,19 @@
 }
 
 .card:hover .img-design{
-    background: linear-gradient(45deg,#bcd5f2,#2b84ea);
+    background: linear-gradient(45deg,#bcd5f2,#0f60bc);
+    transition-duration: 20s;
+    transition-timing-function: linear;
+}
+
+.card:hover #card-svg-2{
+    filter: drop-shadow(3px -3px 10px rgba(22, 21, 21, 0.822));
+    stroke: none;
+
+}
+
+.card:hover .img-design-2{
+    background: linear-gradient(45deg,#4791e4, #0B72E7);
     transition-duration: 20s;
     transition-timing-function: linear;
 }
