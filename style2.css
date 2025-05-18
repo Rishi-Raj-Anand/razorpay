@@ -28,3 +28,18 @@
     transition-duration: 20s;
     transition-timing-function: linear;
 }
+
+.companylist{
+
+    animation:10s infinite linear scrollImg;
+}
+
+@keyframes scrollImg {
+    
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
