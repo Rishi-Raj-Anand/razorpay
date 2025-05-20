@@ -694,6 +694,9 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .place-content-start {
+    place-content: start;
+  }
   .items-center {
     align-items: center;
   }
@@ -1409,6 +1412,31 @@
   .focus\:outline-light-blue {
     &:focus {
       outline-color: var(--color-light-blue);
+    }
+  }
+  .sm\:self-center {
+    @media (width >= 40rem) {
+      align-self: center;
+    }
+  }
+  .lg\:mx-0 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:flex-row {
+    @media (width >= 64rem) {
+      flex-direction: row;
+    }
+  }
+  .lg\:self-start {
+    @media (width >= 64rem) {
+      align-self: flex-start;
     }
   }
 }
