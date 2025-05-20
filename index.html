@@ -8,15 +8,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Razorpay</title>
 </head>
 <body>
 
-    <div class="w-full h-full overflow-x-hidden relative z-200 select-none" id="wrapper">
+    <div class="w-full h-full overflow-x-hidden relative z-200 select-none " id="wrapper">
+        <!-- Banner -->
+        <section class="w-full relative h-[52px] bg-white flex flex-row justify-between ">
+            <!-- left design -->
+            <div class="flex flex-row">
+                <div class=" relative bg-light-blue w-[43px]  border-r-[#cedbec]  border-r-[7px] skew-x-[38deg] z-50 -left-[20px] "></div>
+                <div class="relative bg-[#E7F1FD] w-[100px] skew-x-[38deg] -left-[20px]"></div>
+                <div class="relative bg-[#F3F8FE] w-[120px] skew-x-[38deg] -left-[20px]"></div>
+            </div>
+            <!-- main content -->
+            <div class="flex flex-row relative items-center">
+                <h2 class="font-mullish text-md">RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now! </h2>
+                <button class="font-mullish text-xs font-bold  ml-4 px-4 py-[10px] bg-light-blue text-white rounded-sm">Know More</button>
+            </div>
+            <!-- right design -->
+            <div class="flex flex-row">
+                <div class="relative bg-[#F3F8FE] w-[120px] skew-x-[38deg] -right-[20px]"></div>
+                <div class="relative bg-[#E7F1FD] w-[100px] skew-x-[38deg] -right-[20px]"></div>
+                <div class=" relative bg-light-blue w-[43px]  border-l-[#cedbec]  border-l-[7px] skew-x-[38deg] z-50 -right-[20px] "></div>
+                
+                
+            </div>
+        </section>
         <!-- Navbar -->
-        <nav class="bg-deep-blue z-100">
+        <nav class="bg-deep-blue z-100" id="navbar">
             <div class=" flex relative justify-between items-center mx-auto w-[1080px] ">
                 <!-- main logo -->
             <a href="/" class="py-7 pr-7 cursor-pointer">
@@ -74,11 +97,11 @@
                 <img src="./images/india-flag.svg" alt="indian flag " height="20px" width="28px">
 
                 <!-- login button -->
-                <button class="py-3 px-5 font-mullish font-bold border-light-blue rounded-sm text-sm
+                <button class="py-3 px-5 font-mullish cursor-pointer font-bold border-light-blue rounded-sm text-sm
                 border  text-white">Log in</button>
 
                 <!-- Sign up btn -->
-                <button class="py-3 px-4 font-mullish text-light-blue-300 border rounded-sm bg-white text-sm
+                <button class="py-3 px-4 font-mullish text-light-blue-300 border rounded-sm cursor-pointer bg-white text-sm
                 transition-all duration-200 hover:text-light-blue-500  " >Sign Up
                 <i class="fa-solid fa-arrow-right w-[20px]"></i></button>
 
@@ -98,7 +121,7 @@
                     <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Accepts payments from customers. Automate payouts to vendors & employee.
                         Never run out of working capital.
                     </p>
-                    <button class="bg-light-blue font-mullish text-white rounded-md font-bold
+                    <button class="bg-light-blue font-mullish text-white rounded-md font-bold cursor-pointer
                     hover:bg-light-blue-500 transition-all duration-200 py-[14px] px-[18px]">Sign Up Now</button>
                 </div>
                 <!-- right img part -->
@@ -1381,18 +1404,22 @@
                         </p>
 
                         <div class="font-mullish mt-6">
-                            <p class="text-sm">© Razorpay 2022</p>
+                            <p class="text-sm">© Razorpay 2025</p>
                             <p class="text-sm">All Rights Reserved</p>
+                            <p class="text-sm mt-4">Made by Rishi Raj Anand</p>
                         </div>
                     </div>  
                 </div>
             </div>
         </footer>
 
+        <!-- go up feature -->
+        <div class="fixed w-[40px] h-[40px] bg-light-blue-500 z-200 rounded-full right-10 bottom-10 flex justify-center
+         items-center shadow-lg shadow-black/50 group">
+            <a href="#navbar" class="scroll-smooth"><i data-feather="arrow-up" class="text-white stroke-[3px]"></i></a>
+        </div>
+
         
-
-
-
         
     </div>
 
