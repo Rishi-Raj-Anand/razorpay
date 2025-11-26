@@ -48,5 +48,23 @@
     scroll-behavior: smooth;
 }
 
+.x1:hover{
+    background-image: url('./images/instant-settlement-bghover.svg');
+}
 
+.x2:hover{
+    background-image: url('./images/instantsettlement-hoverbg.svg');
+}
+
+.x3:hover{
+    background-image: url('./images/payment-button-hoverbg.svg');
+}
+
+.x4:hover{
+    background-image: url('./images/magic-checkout-hoverbg.svg');
+}
+
+.x5:hover{
+    background-image: url('./images/upi-autopay-hoverbg.svg');
+}
 
